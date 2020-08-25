@@ -21,4 +21,4 @@ def assign_rooms(rooms)
       puts room
     end
 end
-end 
+end
