@@ -10,14 +10,14 @@ end
 return messages
 end
 def assign_rooms(rooms)
-  rooms.each do |badge| 
+  rooms.each do |badge|
     puts badge
-  end 
+  end
   def printer(speaker)
-    batch_badge_creator(speaker).each do |badge| 
-      put badge 
-    end 
+    batch_badge_creator(speaker).each do |badge|
+      put badge
+    end
     assign_rooms(speakers).each do |room|
-      puts room 
-    end 
+      puts room
+    end
   end 
