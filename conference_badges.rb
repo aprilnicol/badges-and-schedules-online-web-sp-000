@@ -1,13 +1,13 @@
 # Write your code here.
-def badge_maker(name)
-  return "Hello, my name is #{name}."
+def badge_maker(speaker)
+  return "Hello, my name is #{speaker}."
 end
 def batch_badge_creator(speakers)
 speakers = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
-speakers.collect {|speaker| badge_maker(name)}
+speakers.collect{|speaker| badge_maker(name)}
 end
 def assign_rooms(speakers)
-  speakers.each_with_index.map {|speaker, index| "Hello, #{name}! You'll be assigned to room #{index+1}!"}
+  speakers.each_with_index.map {|speaker, index| "Hello, #{speaker}! You'll be assigned to room #{index+1}!"}
 end
   def printer(speakers)
     batch_badge_creator(speakers).each do |badge|
