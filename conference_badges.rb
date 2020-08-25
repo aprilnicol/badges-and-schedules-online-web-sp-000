@@ -9,9 +9,3 @@ names.each do |name|
 end
 return messages
 end
-def assign_rooms(speakers)
-  greeting = []
-  speakers.each_with_index do {|speakers, index| greeting << "Hello, #{speakers}! You'll be assigned to room #{index+1}!"}
-  return greeting
-end
-end
