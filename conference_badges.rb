@@ -20,4 +20,4 @@ def assign_rooms(rooms)
     assign_rooms(speakers).each do |room|
       puts room
     end
-  end 
+
